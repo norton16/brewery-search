@@ -30,7 +30,8 @@
             </a>
           </div>
         </div>
-        <img class="brewery-img" src="../assets/brewery.jpg" alt="brewery-image">
+        <!-- <img class="brewery-img" src="../assets/brewery.jpg" alt="brewery-image"> -->
+        <Map />
       </div>
     <div class="col-span-0 md:col-span-3">
     </div>
@@ -38,9 +39,12 @@
 </template>
 
 <script>
+import Map from '@/components/Map.vue'
+
 export default {
   name: 'About',
   components: {
+    Map
   },
   props: {
   },
